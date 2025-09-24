@@ -113,7 +113,7 @@ def display_banner(stdscr, duration=3):
     
     stdscr.nodelay(True)
     height, width = stdscr.getmaxyx()
-    words = ["THE", "MATRIX", "by JAEKID"]
+    words = ["T H E  M A T R I X", "by jaekid"]
     
     total_lines = len(words) * 5 + (len(words) - 1)
     start_y = max((height - total_lines)//2, 0)
@@ -183,11 +183,3 @@ def main(stdscr):
 
 if __name__ == "__main__":
     curses.wrapper(main)
-
-
-
-
-
-
-
-
